@@ -8,16 +8,17 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-### STEP 1:
-Import the required packages and print the present data.
-### STEP 2:
-Find the null and duplicate values.
-
-### STEP 3:
-Using logistic regression find the predicted values of accuracy , confusion matrices.
-
-### STEP 4:
-Display the results.
+1. Import libraries and dataset: Load the required libraries and read the dataset using pandas.
+2. Copy and clean data: Duplicate the data and remove unnecessary columns (sl_no, salary ).
+3. Check for null and duplicate values: Verify missing and duplicate entries in the dataset.
+4. Encode categorical variables: Use LabelEncoder to convert categorical columns into numeric values.
+5. Define features and target: Separate the features (x) and target (y) for modeling.
+6. Split data: Divide the data into training and testing sets using train_test_split.
+7. Train Logistic Regression model: Initialize and fit the Logistic Regression model (liblinear solver) on training data.
+8. Predict on test data: Use the model to predict outcomes on the test set.
+9. Calculate accuracy: Compute the model's accuracy using accuracy_score.
+10. Generate confusion matrix: Evaluate the model's performance using a confusion matrix.
+11. Make a prediction: Predict a single instance's status using Ir.predict
 
 
 ## Program:
